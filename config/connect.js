@@ -24,7 +24,7 @@ let User = mongoose.model('User', userSchema);
 
 // Create and save user function
 
-/* const createAndSaveUser = () =>{
+const createAndSaveUser = () =>{
    let u = new User({
      name: "Imen",
      age: 54,
@@ -36,7 +36,7 @@ let User = mongoose.model('User', userSchema);
        return console.log(err);
      return console.log(data);
    });
- };  */
+ }; 
 
 // Find User Function
 const findUser = function (food, userName) {
@@ -110,6 +110,7 @@ const chainQuery = function(){
 //Export Functions
 
 module.exports =search= {
+    //createAndSaveUser,
     findUser,
     findUserAndUpdate,
     findUserAndDelete,
@@ -117,4 +118,3 @@ module.exports =search= {
     chainQuery
 
  }
-//module.exports=createAndSaveUser

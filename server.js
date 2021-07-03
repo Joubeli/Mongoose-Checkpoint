@@ -7,7 +7,7 @@ app.use(express.json())
 
 
 //Create and save User function
-//createAndSaveUser()
+//search.createAndSaveUser()
 
 //Find User ByName, Food, ID function
 
